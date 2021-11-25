@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfAirplane xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Airplane>
+    <VendorName>Boeing</VendorName>
+    <Model>B-29 Superfortress</Model>
+    <FlightHours>0</FlightHours>
+    <Capacity>11</Capacity>
+  </Airplane>
+  <Airplane>
+    <VendorName>Boeing</VendorName>
+    <Model>B-52 Stratofortress</Model>
+    <FlightHours>0</FlightHours>
+    <Capacity>6</Capacity>
+  </Airplane>
+  <Airplane>
+    <VendorName>Lockheed</VendorName>
+    <Model>F-117 Nighthawk</Model>
+    <FlightHours>0</FlightHours>
+    <Capacity>1</Capacity>
+  </Airplane>
+</ArrayOfAirplane>

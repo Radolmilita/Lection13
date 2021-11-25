@@ -1,0 +1,27 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/clr/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <SOAP-ENC:Array id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull" SOAP-ENC:arrayType="a1:Airplane[3]">
+      <item href="#ref-2" />
+      <item href="#ref-3" />
+      <item href="#ref-4" />
+    </SOAP-ENC:Array>
+    <a1:Airplane id="ref-2" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_VendorName_x003E_k__BackingField id="ref-5">Airbus</_x003C_VendorName_x003E_k__BackingField>
+      <_x003C_Model_x003E_k__BackingField id="ref-6">A-380</_x003C_Model_x003E_k__BackingField>
+      <_x003C_FlightHours_x003E_k__BackingField>2000</_x003C_FlightHours_x003E_k__BackingField>
+      <_x003C_Capacity_x003E_k__BackingField>853</_x003C_Capacity_x003E_k__BackingField>
+    </a1:Airplane>
+    <a1:Airplane id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_VendorName_x003E_k__BackingField id="ref-7">Boeing</_x003C_VendorName_x003E_k__BackingField>
+      <_x003C_Model_x003E_k__BackingField id="ref-8">Dreamliner</_x003C_Model_x003E_k__BackingField>
+      <_x003C_FlightHours_x003E_k__BackingField>4555</_x003C_FlightHours_x003E_k__BackingField>
+      <_x003C_Capacity_x003E_k__BackingField>330</_x003C_Capacity_x003E_k__BackingField>
+    </a1:Airplane>
+    <a1:Airplane id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ConsoleApp1/ConsoleApp1%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_VendorName_x003E_k__BackingField href="#ref-7" />
+      <_x003C_Model_x003E_k__BackingField id="ref-9">777-300</_x003C_Model_x003E_k__BackingField>
+      <_x003C_FlightHours_x003E_k__BackingField>11000</_x003C_FlightHours_x003E_k__BackingField>
+      <_x003C_Capacity_x003E_k__BackingField>550</_x003C_Capacity_x003E_k__BackingField>
+    </a1:Airplane>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
